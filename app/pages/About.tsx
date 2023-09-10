@@ -20,7 +20,7 @@ export default function About() {
             <div className="text-5xl font-bold">About</div>
             <div className="text-sm w-[40vw] mt-10 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              iure ad eius sed accusantium velit eligendi error perferendis, a
+              {/* iure ad eius sed accusantium velit eligendi error perferendis, a
               asperiores distinctio. Omnis nisi mollitia suscipit asperiores.
               Natus ipsum ratione, inventore commodi necessitatibus incidunt
               molestiae aperiam, architecto ea nemo quisquam voluptate
@@ -39,7 +39,7 @@ export default function About() {
               quasi vel, rem unde tempora aliquam libero doloribus dolores
               facere aperiam architecto laudantium ab veniam provident
               explicabo! Nostrum aspernatur perferendis rem at recusandae
-              placeat fugit distinctio quibusdam dignissimos!
+              placeat fugit distinctio quibusdam dignissimos! */}
             </div>
           </div>
         </div>
