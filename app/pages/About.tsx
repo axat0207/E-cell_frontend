@@ -16,7 +16,7 @@ export default function About() {
     <>
       <div className="flex justify-center items-center mx-40  h-[100vh] w-[100vw]">
         <div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-right" data-aos-easing="linear" data-aos-offset="90">
             <div className="text-5xl font-bold">About</div>
             <div className="text-sm w-[40vw] mt-10 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
@@ -43,7 +43,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 mx-10 md:grid-cols-4 gap-4" data-aos="fade-left">
+        <div className="grid grid-cols-2 mx-10 md:grid-cols-4 gap-4" data-aos="fade-left" data-aos-easing="linear">
           <div className="grid gap-4" >
             <div>
               <img
