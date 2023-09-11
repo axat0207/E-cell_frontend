@@ -1,10 +1,26 @@
+
 // @ts-nocheck
+"use client"
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 import React from 'react';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+}, [])
   return (
-    <div className="bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div className="mx-auto max-w-2xl text-center">
+    <div
+  style={{
+    background: 'linear-gradient(180deg, #000 0%, #FFF 96.35%, #FFF 100%)',
+  }}
+  className="px-6 py-24 sm:py-32 lg:px-8"
+  data-aos="zoom-in-up"
+  data-aos-delay="50"
+  data-aos-duration="1200"
+>
+      <div className="mx-auto max-w-2xl text-center" >
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">Feel free to contact us in case of any queries.</p>
       </div>
