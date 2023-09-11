@@ -1,4 +1,14 @@
+"use client";
+// @ts-nocheck
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export default function UpcomingEvents() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+
   return (
     <>
       <div className="relative bg-black">
@@ -10,8 +20,8 @@ export default function UpcomingEvents() {
             opacity: "0.2",
           }}
         ></div>
-        <div className="h-[100vh] flex bg-black text-white  items-center justify-center">
-          <div className="max-w-screen-lg space-y-14 mx-auto p-4">
+        <div className="h-[100vh] flex bg-black text-white  items-center justify-center" >
+          <div className="max-w-screen-lg space-y-14 mx-auto p-4" data-aos="zoom-in"   data-aos-duration="1000">
             <div className="underline my-7 text-center text-4xl text-red-600">
               Campus Tycoon
             </div>

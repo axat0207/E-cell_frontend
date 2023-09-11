@@ -5,7 +5,7 @@ import Contact from "./pages/Contact";
 import Initiative from "./pages/Initiative";
 import Landing from "./pages/Landing";
 import Partner from "./pages/Partner";
-// import PastEvents from "./pages/PastEvents";
+import PastEvents from "./pages/PastEvents";
 import RecentEvents from "./pages/RecentEvents";
 import UpcomingEvents from "./pages/UpcomingEvents";
 
@@ -18,7 +18,7 @@ export default function Home() {
       <Initiative/>
       <RecentEvents/>
       <UpcomingEvents/>
-      {/* <PastEvents/> */}
+      <PastEvents/>
       <Alumni/>
       <Partner/>
       <Contact/>
