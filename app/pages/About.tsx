@@ -1,50 +1,37 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
-
-
+import { ABOUT_GALLARY_3, ABOUT_GALLARY_2 } from "../constants/imageLinks";
 export default function About() {
 
-  
   useEffect(() => {
     Aos.init();
-}, [])
+  }, []);
 
   return (
-    <>
-      <div className="flex justify-center items-center mx-40  h-[100vh] w-[100vw]">
-        <div>
-          <div data-aos="fade-right" data-aos-easing="linear" data-aos-offset="90">
-            <div className="text-5xl font-bold">About</div>
-            <div className="text-sm w-[40vw] mt-10 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              {/* iure ad eius sed accusantium velit eligendi error perferendis, a
-              asperiores distinctio. Omnis nisi mollitia suscipit asperiores.
-              Natus ipsum ratione, inventore commodi necessitatibus incidunt
-              molestiae aperiam, architecto ea nemo quisquam voluptate
-              reiciendis perspiciatis expedita dicta dolorum ipsa enim, eveniet
-              nostrum sapiente cumque magni voluptas impedit porro. Laudantium
-              labore velit impedit, culpa iste facere error molestiae maxime ea
-              delectus obcaecati earum natus provident magnam hic expedita
-              suscipit totam optio. Adipisci, ea tempore ullam vitae placeat
-              facilis repudiandae nam, necessitatibus ipsam quos eveniet!
-              Praesentium vero illo sunt beatae vel laboriosam nobis iure
-              cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ullam esse, dignissimos vitae aliquam quis impedit sequi ad
-              quibusdam voluptatem, omnis doloremque aspernatur error dolores
-              odio totam obcaecati molestias et id? Dolorem perspiciatis nam
-              minus eaque, consequatur saepe at nostrum ratione dolore quos
-              quasi vel, rem unde tempora aliquam libero doloribus dolores
-              facere aperiam architecto laudantium ab veniam provident
-              explicabo! Nostrum aspernatur perferendis rem at recusandae
-              placeat fugit distinctio quibusdam dignissimos! */}
-            </div>
+    <div className="flex flex-col md:flex-row justify-center  items-center lg:min-h-screen  w-full">
+      <div className="w-full md:w-1/2 px-4">
+        <div
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-offset="90"
+        >
+          <div className="text-5xl font-bold mt-10">About</div>
+          <div className="text-sm mt-10 leading-relaxed">
+            {/* Your Lorem Ipsum text */}
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente assumenda minima nam illo ipsam debitis nostrum exercitationem, aut et error! Numquam dolore, natus qui, distinctio pariatur cum voluptatem velit voluptates suscipit dolorum, molestiae asperiores? Enim aliquid quibusdam aspernatur dolorem nobis et asperiores labore recusandae, reprehenderit beatae unde, ab assumenda illum. Aperiam magnam vel aspernatur! Animi sit inventore aliquam? Odio voluptatibus amet repellendus delectus optio atque sint voluptas provident aperiam tempora nam, sunt modi nisi temporibus animi reiciendis ipsa quos officiis sit iure in porro officia fugit! Fugiat alias earum, unde maiores, nulla asperiores nihil nisi explicabo id reiciendis ab atque.
           </div>
         </div>
-        <div className="grid grid-cols-2 mx-10 md:grid-cols-4 gap-4" data-aos="fade-left" data-aos-easing="linear">
-          <div className="grid gap-4" >
+      </div>
+      <div className="w-full md:w-1/2 my-8 mx-4 md:mt-0">
+        <div
+          className="grid grid-cols-2 md:grid-cols-4 gap-4"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+        >
+          <div className="grid gap-4">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -55,7 +42,7 @@ export default function About() {
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+                src={ABOUT_GALLARY_2}
                 alt=""
               />
             </div>
@@ -64,7 +51,7 @@ export default function About() {
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+                src={ABOUT_GALLARY_3}
                 alt=""
               />
             </div>
@@ -78,6 +65,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

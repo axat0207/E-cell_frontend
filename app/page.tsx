@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Alumni from "./pages/Alumni";
@@ -12,7 +13,7 @@ import UpcomingEvents from "./pages/UpcomingEvents";
 
 export default function Home() {
   return (
-    <div className="text-3xl">
+    <div>
       <Landing/>
       <About/>
       <Initiative/>
@@ -22,6 +23,7 @@ export default function Home() {
       <Alumni/>
       <Partner/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -1,13 +1,13 @@
 import Link from "next/link";
-
+import {ECELL_LOGO} from '../constants/imageLinks'
 const Navbar = () => {
   return (
     <nav className="bg-black">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/f4b6/49f4/b519d884a8e9f03161059ed2a45633e1?Expires=1694995200&Signature=ZgZ8-98gpacHW-ydsigDHMgU7yP1E97Q6eIeslfkBA4GRb98e5yfkSIFkzIVn87hhWMFAVTHRQZsfmqzPQIX9Bs8ECGPV7Cojgp97-80XO0Xc11loPu01pD7whPauEc3iCsmWbgR7s4NbdQAsu16QtfvBtTjpEvD9-dYbvy-YGr~w5TZ6jo6OZqOSby8XIqmxMgvqzMMXR1hTWDUMFb8xTKdUjTczmDvNwH5bR0WukoxTlgTZhHD6GecsXTShcmWU3TPXMyn5iL-xNS6KAVYr~kV-61is92~GGx43ML2JfhpQlmE-8NM39rpgqDHbCm53W3QAYh2fPwYdEhxyPkOOA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-            className="h-14 mr-3"
+            src={ECELL_LOGO}
+            className="lg:h-14 h-10 mr-3"
             alt="E-Cell Logo"
           />
 

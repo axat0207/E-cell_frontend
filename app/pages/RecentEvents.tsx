@@ -25,7 +25,7 @@ export default function Initiative() {
                     <div className="text-center py-4">E-Summit</div>
                     <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                 </div>
-                <div data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
+                <div className='mb-10 md:mb-0' data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
                     <div className="text-center py-4">E-Summit</div>
                     <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                 </div>
