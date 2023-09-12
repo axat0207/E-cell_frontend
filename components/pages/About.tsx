@@ -11,7 +11,8 @@ export default function About() {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row justify-center  items-center lg:min-h-screen  w-full">
+    <div className="flex flex-col md:flex-row justify-center  lg:min-h-screen  w-full">
+      
       <div className="w-full md:w-1/2 px-4">
         <div
           data-aos="fade-right"
@@ -65,6 +66,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }

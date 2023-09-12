@@ -16,7 +16,7 @@ const Footer = () => {
                 height={60}
               />
             </Link>
-            <div className="flex mt-2 -ml-7">
+            <div className="flex mt-2 mr-7">
               <img
                 src="/insta.svg"
                 className=" mr-3"
@@ -37,7 +37,7 @@ const Footer = () => {
                 className=" mr-3"
                 alt="FlowBite Logo"
                 width={30}
-                height={20}
+                height={10}
               />
             </div>
           </div>

@@ -12,21 +12,21 @@ export default function Initiative() {
     return (
         <div className="min-h-screen ">
             <div className="text-4xl font-semibold py-16 text-black text-center" data-aos="fade-up" data-aos-duration="1000">Recent Events</div>
-            <div className="flex flex-col md:flex-row justify-center items-center md:gap-10 px-4 md:px-20 text-red-600" data-aos="fade-up">
+            <div className="text-2xl flex flex-col md:flex-row justify-center items-center md:gap-10 px-4 md:px-20 text-red-600" data-aos="fade-up">
                 <div data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
-                    <div className="text-center py-4">E-Summit</div>
+                    <div className="text-center py-4">Marketing Fiesta</div>
                     <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                 </div>
                 <div data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
-                    <div className="text-center py-4">E-Summit</div>
+                    <div className="text-center py-4">Entrepreneur's talk</div>
                     <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                 </div>
                 <div data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
-                    <div className="text-center py-4">E-Summit</div>
+                    <div className="text-center py-4">Pitching Competition</div>
                     <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                 </div>
                 <div className='mb-10 md:mb-0' data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
-                    <div className="text-center py-4">E-Summit</div>
+                    <div className="text-center py-4">Presentation round</div>
                     <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                 </div>
             </div>

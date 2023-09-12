@@ -12,14 +12,14 @@ const Brand = () => {
     <>
       {/* ====== Brands Section Start */}
       <section className="bg-white ">
-        <div className="container  flex h-[40vh] flex-col justify-center items-center"   data-aos="zoom-in-up"  data-aos-delay="50"
+        <div className="flex  md:h-[40vh] flex-col justify-center items-center"   data-aos="zoom-in-up"  data-aos-delay="50"
     data-aos-duration="1200">
           <div className="my-10">
             <h1 className="text-4xl font-semibold">PARTNER WITH US</h1>
           </div>
           <div className="flex flex-wrap">
             <div className="w-full ">
-              <div className="flex flex-wrap gap-16">
+              <div className="flex justify-center mb-10 flex-wrap gap-16">
                 <img
                   //   href="#"
                   alt="Brand Image"
