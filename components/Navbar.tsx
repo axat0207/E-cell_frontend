@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {ECELL_LOGO} from '../constants/imageLinks'
+import {ECELL_LOGO} from './constants/imageLinks'
 const Navbar = () => {
   return (
     <nav className="bg-black">

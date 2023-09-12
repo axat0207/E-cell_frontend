@@ -20,6 +20,7 @@ const Contact = () => {
   data-aos-delay="50"
   data-aos-duration="1200"
 >
+
       <div className="mx-auto max-w-2xl text-center" >
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">Feel free to contact us in case of any queries.</p>
