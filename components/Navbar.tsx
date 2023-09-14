@@ -2,8 +2,8 @@ import Link from "next/link";
 import {ECELL_LOGO} from './constants/imageLinks'
 const Navbar = () => {
   return (
-    <nav className="bg-black">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-black opacity-80">
+      <div className="max-w-screen-xl flex flex-wrap z-10 items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
           <img
             src={ECELL_LOGO}
@@ -38,13 +38,13 @@ const Navbar = () => {
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
         <div className="text-white text-lg flex justify-center items-center gap-4">
-                <Link className="hover:text-red-700" href={'/'}>HOME</Link>
-                <Link className="hover:text-red-700" href={'/'}>ABOUT US</Link>
-                <Link className="hover:text-red-700" href={'/'}>INITIATIVE</Link>
-                <Link className="hover:text-red-700" href={'/'}>EVENTS</Link>
-                <Link className="hover:text-red-700" href={'/'}>ALUMNI</Link>
-                <Link className="hover:text-red-700" href={'/'}>PARTNER WITH US</Link>
-                <Link className="hover:text-red-700" href={'/'}>CONTACT US</Link>
+                <Link className="hover:text-red-700" href={'/'}>Home</Link>
+                <Link className="hover:text-red-700" href={'/'}>About Us</Link>
+                <Link className="hover:text-red-700" href={'/'}>Initiative</Link>
+                <Link className="hover:text-red-700" href={'/'}>Events</Link>
+                <Link className="hover:text-red-700" href={'/'}>Alumini</Link>
+                <Link className="hover:text-red-700" href={'/'}>Partner With Us</Link>
+                <Link className="hover:text-red-700" href={'/'}>Contact Us</Link>
             </div>
         </div>
       </div>

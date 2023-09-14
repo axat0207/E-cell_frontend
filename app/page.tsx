@@ -14,6 +14,7 @@ import UpcomingEvents from "../components/pages/UpcomingEvents";
 export default function Home() {
   return (
     <div>
+      {/* <Navbar /> */}
       <Landing/>
       <About/>
       <Initiative/>
