@@ -11,7 +11,7 @@ export default function About() {
   }, []);
 
   return (
-    <div id="about" className="flex  justify-between lg:min-h-fit lg:py-20 lg:px-10  w-full">
+    <div id="about" className="flex flex-col lg:flex-row justify-between lg:min-h-fit lg:py-20 lg:px-10  w-full">
 
       <div className="w-full  px-4">
         <div
