@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
         <div className="text-white text-lg flex justify-center items-center gap-4">
                 <Link className="hover:text-red-700" href={'/'}>Home</Link>
-                <Link className="hover:text-red-700" href={'/'}>About Us</Link>
+                <Link className="hover:text-red-700" href='#about'>About Us</Link>
                 <Link className="hover:text-red-700" href={'/'}>Initiative</Link>
                 <Link className="hover:text-red-700" href={'/'}>Events</Link>
                 <Link className="hover:text-red-700" href={'/'}>Alumini</Link>

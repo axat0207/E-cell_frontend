@@ -11,7 +11,7 @@ const Brand = () => {
   return (
     <>
       {/* ====== Brands Section Start */}
-      <section className="bg-white ">
+      <section className="bg-white py-10">
         <div className="flex  md:h-[40vh] flex-col justify-center items-center"   data-aos="zoom-in-up"  data-aos-delay="50"
     data-aos-duration="1200">
           <div className="my-10">

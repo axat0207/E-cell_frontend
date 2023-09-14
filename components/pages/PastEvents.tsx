@@ -18,7 +18,7 @@ export default function PastEvents() {
   }, []);
 
   return (
-    <div className=" text-center mt-5 text-4xl font-semibold" data-aos="slide-up"    data-aos-duration="900">
+    <div className=" text-center mt-5 text-4xl font-semibold py-16" data-aos="slide-up"    data-aos-duration="900">
         <h1>PAST EVENTS</h1>
       <div>
         <Swiper
