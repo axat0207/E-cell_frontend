@@ -9,6 +9,15 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "./pageEvent.css";
+import Image from "next/image";
+import img1 from '../../public/assets/about1.png'
+import img2 from '../../public/assets/about2.jpg'
+import img3 from '../../public/assets/about3.png'
+import img4 from '../../public/assets/initiative1.png'
+import img5 from '../../public/assets/initiative2.png'
+import img6 from '../../public/assets/initiative3.png'
+import img7 from '../../public/assets/initiative4.png'
+import img8 from '../../public/assets/recent1.png'
 
 export default function PastEvents() {
   register();
@@ -39,31 +48,26 @@ export default function PastEvents() {
           initialSlide={4}  //set initial slide state
         >
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <Image src={img1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <Image src={img2} alt=""/>
+          </SwiperSlide>
+         
+          <SwiperSlide>
+            <Image src={img4} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <Image src={img5} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <Image src={img6} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            <Image src={img7} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            <Image src={img8} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

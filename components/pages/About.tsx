@@ -3,7 +3,9 @@ import Image from "next/image";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
-import { ABOUT_GALLARY_3, ABOUT_GALLARY_2 } from "../constants/imageLinks";
+import about1 from '../../public/assets/about1.png'
+import about2 from '../../public/assets/about2.jpg'
+import about3 from '../../public/assets/about3.png'
 export default function About() {
 
   useEffect(() => {
@@ -34,15 +36,15 @@ export default function About() {
           >
           <div className="grid col-span-2 gap-4">
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-                alt=""
+                src={about1}
+                alt="about image 1"
                 />
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
-                src={ABOUT_GALLARY_2}
-                alt=""
+                src={about2}
+                alt="about image 2"
               />
             </div>
             <div className=" col-span-2">
@@ -50,10 +52,10 @@ export default function About() {
           </div>
           <div className="grid gap-4 col-span-2 mt-20">
 
-            <img
+            <Image
               className="h-auto max-w-full rounded-lg"
-              src={ABOUT_GALLARY_3}
-              alt=""
+              src={about3}
+              alt="about image 1"
               />
           </div>
           {/* <div>

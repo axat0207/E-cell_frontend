@@ -14,6 +14,7 @@ const Contact = () => {
 
   return (
     <div
+    id='Contact'
       style={{
         background: 'linear-gradient(180deg, #000 0%, #FFF 96.35%, #FFF 100%)',
       }}

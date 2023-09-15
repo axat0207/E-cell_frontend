@@ -1,14 +1,16 @@
 import Link from "next/link";
-import {ECELL_LOGO} from './constants/imageLinks'
+import ECELL_LOGO from '../public/assets/ecell-logo.png'
+import Image from "next/image";
 const Navbar = () => {
   return (
     <nav className="bg-black opacity-80">
       <div className="max-w-screen-xl flex flex-wrap z-10 items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
-          <img
+          <Image
             src={ECELL_LOGO}
-            className="lg:h-14 h-10 mr-3"
+            className="lg:h-14 h-10 w-10 lg:w-14 opacity-1 mr-3"
             alt="E-Cell Logo"
+
           />
 
         </Link>
@@ -38,13 +40,13 @@ const Navbar = () => {
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
         <div className="text-white text-lg flex justify-center items-center gap-4">
-                <Link className="hover:text-red-700" href={'/'}>Home</Link>
-                <Link className="hover:text-red-700" href='#about'>About Us</Link>
-                <Link className="hover:text-red-700" href={'/'}>Initiative</Link>
-                <Link className="hover:text-red-700" href={'/'}>Events</Link>
-                <Link className="hover:text-red-700" href={'/'}>Alumini</Link>
-                <Link className="hover:text-red-700" href={'/'}>Partner With Us</Link>
-                <Link className="hover:text-red-700" href={'/'}>Contact Us</Link>
+                <Link className="hover:text-red-600" href={'/'}>Home</Link>
+                <Link className="hover:text-red-600" href='#about'>About Us</Link>
+                <Link className="hover:text-red-600" href='#Initiative'>Initiative</Link>
+                <Link className="hover:text-red-600" href='#Events'>Events</Link>
+                <Link className="hover:text-red-600" href='#Alumini'>Alumini</Link>
+                <Link className="hover:text-red-600" href='#Partner'>Partner With Us</Link>
+                <Link className="hover:text-red-600" href='#Contact'>Contact Us</Link>
             </div>
         </div>
       </div>
