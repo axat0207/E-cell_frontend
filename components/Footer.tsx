@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ECELL_LOGO } from "./constants/imageLinks";
-
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-black">
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-              <img
+              <Image
                 src={ECELL_LOGO}
                 className=" mr-3"
                 alt="FlowBite Logo"
@@ -17,7 +17,7 @@ const Footer = () => {
               />
             </Link>
             <div className="flex mt-2 mr-7">
-              <img
+              <Image
                 src="/insta.svg"
                 className=" mr-3"
                 alt="FlowBite Logo"
@@ -25,14 +25,14 @@ const Footer = () => {
                 height={30}
               />
 
-              <img
+              <Image
                 src="/fb.svg"
                 className=" mr-3"
                 alt="FlowBite Logo"
                 width={30}
                 height={30}
               />
-              <img
+              <Image
                 src="/linkiden.svg"
                 className=" mr-3"
                 alt="FlowBite Logo"

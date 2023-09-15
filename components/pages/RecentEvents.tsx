@@ -8,9 +8,7 @@ import recent2 from '../../public/assets/recent2.png'
 import recent3 from '../../public/assets/recent3.png'
 import recent4 from '../../public/assets/recent4.png'
 export default function Initiative() {
-    useEffect(() => {
-        AOS.init();
-    }, [])
+   
 
     return (
         <div className="min-h-screen ">
@@ -21,7 +19,7 @@ export default function Initiative() {
                     <Image className="h-auto max-w-full rounded-lg" src={recent1} alt="" />
                 </div>
                 <div data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">
-                    <div className="text-center py-4">Entrepreneur's talk</div>
+                    <div className="text-center py-4">Entrepreneur&apos;s talk</div>
                     <Image className="h-auto max-w-full rounded-lg" src={recent2} alt="" />
                 </div>
                 <div data-aos="flip-up" data-aos-offset="300" data-aos-duration="1000">

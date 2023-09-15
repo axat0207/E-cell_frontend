@@ -3,11 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
 import { useEffect } from "react";
-
+import Image from "next/image";
 const Brand = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <>
       {/* ====== Brands Section Start */}
@@ -20,22 +18,22 @@ const Brand = () => {
           <div className="flex flex-wrap">
             <div className="w-full ">
               <div className="flex justify-center mb-10 flex-wrap gap-16">
-                <img
+                <Image
                   //   href="#"
                   alt="Brand Image"
                   src="https://cdn.tailgrids.com/1.0/assets/images/brands/graygrids.svg"
                 />
-                <img
+                <Image
                   //   href="#"
                   alt="Brand Image"
                   src="https://cdn.tailgrids.com/1.0/assets/images/brands/lineicons.svg"
                 />
-                <img
+                <Image
                   //   href="#"
                   alt="Brand Image"
                   src="https://cdn.tailgrids.com/1.0/assets/images/brands/uideck.svg"
                 />
-                <img
+                <Image
                   //   href="#"
                   alt="Brand Image"
                   src="https://cdn.tailgrids.com/1.0/assets/images/brands/ayroui.svg"
