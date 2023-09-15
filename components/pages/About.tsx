@@ -8,14 +8,11 @@ import about2 from '../../public/assets/about2.jpg'
 import about3 from '../../public/assets/about3.png'
 
 export default function About() {
-  useEffect(() => {
-    Aos.init();
-  }, []);
 
   return (
     <div id="about" className="flex flex-col lg:flex-row justify-between lg:min-h-fit lg:py-20 lg:px-10 w-full">
 
-      <div className="w-full px-4">
+      <div className="w-full lg:px-4">
         <div
           data-aos="fade-right"
           data-aos-easing="linear"
@@ -28,7 +25,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="w-full ml-4 my-8  ">
+      <div className="md:w-full ml-4 my-8  ">
         <div
           className="grid grid-cols-2 md:grid-cols-4 gap-4"
           data-aos="fade-right"
